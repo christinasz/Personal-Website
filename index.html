@@ -18,6 +18,7 @@ i like your curiosity
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lity.css">
 </head>
 
 <body>
@@ -113,38 +114,98 @@ i like your curiosity
         </div>
         <div class="container" id="thePortfolio">
 
-            <div class="mix motion">
-                <img src="img/promo/featurePrev.png">
-            </div>
-            <div class="mix motion">
-                <img src="img/promo/ldrPrev.png">
-            </div>
-            <div class="mix motion">
+            <a href="#logo" data-lity class="mix motion">
                 <img src="img/promo/logoPrev.png">
-            </div>
-            <div class="mix UI">
-                <img src="img/promo/imeshPrev.png">
-            </div>
-            <div class="mix UI">
+            </a>
+            <a href="#features" data-lity class="mix motion">
+                <img src="img/promo/featurePrev.png">
+            </a>
+            <a href="#ldr" data-lity class="mix motion">
+                <img src="img/promo/ldrPrev.png">
+            </a>
+            <a href="#imesh" class="mix UI" data-lity><img src="img/promo/imeshPrev.png">
+            </a>
+
+            <a href="img/promo/inMeshFlow.png" data-lity class="mix UI">
                 <img src="img/promo/inMeshPrev.png">
-            </div>
-            <div class="mix UI">
+            </a>
+            <a href="img/promo/vikiFlow.png" data-lity class="mix UI">
                 <img src="img/promo/vikiPrev.png">
-            </div>
-            <div class="mix graphic">
+            </a>
+            <a href="#settings" data-lity class="mix motion UI"><img src="img/promo/settingsPrev.png"></a>
+            <a href="#likeSkip" data-lity class="mix motion UI"><img src="img/promo/likeSkipPrev.png"></a>
+            <a href="img/promo/bcday.png" data-lity class="mix graphic">
                 <img src="img/promo/bcPrev.png">
-            </div>
-            <div class="mix graphic">
+            </a>
+            <a href="img/promo/landmarks2.png" data-lity class="mix graphic">
                 <img src="img/promo/landmarksPrev.png">
+            </a>
+        </div>
+        <div id="logo" class="lity-hide">
+            <div class="iframeContainer">
+                <iframe src="https://player.vimeo.com/video/200519577" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
+            <h3>
+            <strong>WeMesh Logo Animation</strong>
+            </h3>
+            <p>At WeMesh, I taught myself to use Adobe After Effects. To test out my new skills, I created an animation of the company's logo for future promotions.</p>
+        </div>
+        <div id="features" class="lity-hide">
+            <div class="iframeContainer">
+                <iframe src="https://player.vimeo.com/video/200519568" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <h3>
+                <strong>WeMesh Features Promo</strong>
+            </h3>
+            <p>
+                While at WeMesh, I created this short motion graphic with Adobe After Effects to showcase the app's features.
+            </p>
+        </div>
+        <div id="ldr" class="lity-hide">
+            <div class="iframeContainer1by1">
+                <iframe src="https://player.vimeo.com/video/200519574" width="350" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <h3>
+            <strong>WeMesh Advertisement</strong>
+            </h3>
+            <p>I created this advertisement for the company's social media to show the audience potential uses for the app.</p>
+        </div>
+        <div id="settings" class="lity-hide">
+            <div class="iframeContainerPhone">
+                <iframe src='https://gfycat.com/ifr/VastNaughtyHorseshoecrab' frameborder='0' scrolling='no' width='640' height='1138' allowfullscreen></iframe>
+            </div>
+            <h3>
+            <strong>WeMesh Settings Demo</strong>
+            </h3>
+            <p>Using the skills I learned from making motion graphics, I was able to create animated mockups of proposed new features to faciliate communication between the designers and developers. </p>
+        </div>
+        <div id="likeSkip" class="lity-hide">
+            <div class="iframeContainerPhone">
+                <iframe src='https://gfycat.com/ifr/SoftSilkyIriomoteCat' frameborder='0' scrolling='no' allowfullscreen></iframe>
+            </div>
+            <h3>
+            <strong>WeMesh Like/Skip Demo</strong>
+            </h3>
+            <p>Using what I learned from making motion graphics, I animated mockups of new features to help communicate between designers and developers. </p>
+        </div>
+        <div id="imesh" class="lity-hide">
+            <img src="img/promo/imesh.png">
+            <img src="img/promo/imeshFlow.png">
+            <h3>
+            <strong>WeMesh Like/Skip Demo</strong>
+            </h3>
+            <p>Using what I learned from making motion graphics, I animated mockups of new features to help communicate between designers and developers. </p>
         </div>
     </section>
 
 </body>
-<!--BOOTSTRAP-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 <!--JQUERY-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!--BOOTSTRAP-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 <!-- GOOGLE FONTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
 <script>
@@ -156,7 +217,10 @@ i like your curiosity
 
 </script>
 <script src="js/index.js"></script>
+<!--MIX IT UP-->
 <script src="js/mixitup.min.js"></script>
+<!--LITY-->
+<script src="js/lity.js"></script>
 <!--<script src="owl-carousel/owl.carousel.js"></script>-->
 
 </html>

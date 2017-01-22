@@ -51,14 +51,12 @@ a:hover {
 #mountains {
     z-index: 0;
 }
-#hill {
+#hill,
+#lightSeawall {
     z-index: 1;
 }
 #bridge {
     z-index: 4;
-}
-#lightSeawall {
-    z-index: 1;
 }
 #darkSeawall {
     z-index: 3;
@@ -71,12 +69,6 @@ a:hover {
     outline: 1.5px solid #564A7D;
     outline-offset: -15px;
     z-index: 9;
-}
-@media only screen and (min-width: 768px) {
-    .textBox {
-        max-width: 35%;
-        padding: 2.5%;
-    }
 }
 .textBox a,
 p {
@@ -93,6 +85,7 @@ p {
     position: relative;
 }
 #portfolio {
+    min-height: 100vh;
     padding-top: 10%;
     padding-bottom: 10%;
     background-color: #8C72B3;
@@ -107,4 +100,66 @@ p {
 }
 .mix img {
     width: 90%;
+}
+.iframeContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.iframeContainer1by1 {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;
+}
+.iframeContainerPhone {
+    position: relative;
+    padding-bottom: 177.8%;
+    height: 0;
+    overflow: hidden;
+}
+.iframeContainer iframe,
+.iframeContainer1by1 iframe,
+.iframeContainerPhone iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#logo,
+#features,
+#ldr,
+#settings,
+#likeSkip,
+#imesh {
+    text-align: center;
+    background: #fff;
+    padding: 5%;
+    font-size: 70%;
+    margin: 5%;
+    outline: 1.5px solid #564A7D;
+    outline-offset: -10px;
+}
+#settings,
+#likeSkip {
+    max-width: 60%;
+    margin-left: 21%;
+}
+@media only screen and (min-width: 768px) {
+    .textBox {
+        max-width: 35%;
+        padding: 2.5%;
+    }
+    #settings,
+    #likeSkip {
+        max-width: 25%;
+        margin-left: 40%;
+        font-size: 100%;
+    }
+    #ldr {
+        max-width: 55%;
+        margin-left: 22%;
+    }
 }
